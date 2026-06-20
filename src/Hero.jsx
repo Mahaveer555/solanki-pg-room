@@ -1,4 +1,4 @@
-import building from "./assets/building.jpg"
+import building from "./assets/buildingg.jpg"
 
 export default function Hero() {
   return (
