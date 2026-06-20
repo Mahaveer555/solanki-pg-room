@@ -8,3 +8,14 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+import { motion } from "framer-motion";
+
+<motion.h1
+ initial={{ opacity: 0, y: 50 }}
+ animate={{ opacity: 1, y: 0 }}
+ transition={{ duration: 1 }}
+ className="text-6xl font-bold"
+>
+ Solanki PG Room Kota
+</motion.h1>

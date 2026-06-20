@@ -1,7 +1,7 @@
-import room1 from "./assets/room1.jpg"
-import room2 from "./assets/room2.jpg"
-import room3 from "./assets/room3.jpg"
-import room4 from "./assets/room4.jpg"
+import room1 from "../assets/room1.jpg";
+import room2 from "../assets/room2.jpg"
+import room3 from "../assets/room3.jpg"
+import room4 from "../assets/room4.jpg"
 
 export default function Gallery() {
   const images = [room1, room2, room3, room4]
